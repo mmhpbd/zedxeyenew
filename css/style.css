@@ -202,3 +202,25 @@ text-align: center;
     color: white;
     margin-bottom: 50px;
 }
+.vulhome h1{
+    font-style: italic;
+    font-size: 50px;
+}
+.ass{
+    height: 60px;
+    width: 370px;
+    background-color: #3b444b;
+    text-align: end;
+}
+.vulcon{
+    margin-top: 50px;
+}
+.vulli{
+    color: #fff;
+    margin-left: 10%;
+}
+.vulget{
+    text-align: center;
+    background-color: #232b2b;
+    margin-top: 10px;
+}
