@@ -152,11 +152,15 @@ text-align: center;
     background: #414a4c;
     height: 150px;
 }
-.zedxcontact h1,p{
+.zedxcontact h1{
     margin-left: 15px;
     margin-top: 10px;
     margin-right: 120px;
-
+}
+.zedxcontact p{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 120px;
 }
 .foot{
     color: white;
