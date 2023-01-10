@@ -1,0 +1,166 @@
+
+a, h1, h2, h3, h4, h5, h6, p, span{
+    color: white;
+}
+h3{
+    color: white;
+}
+.home a.nav-link{
+    color: white;
+}
+.zedxlogo{
+    height: 50px;
+}
+.zedxnav a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.zedxhomeh1{
+    text-align: center;
+    margin-top: 50%;
+}
+
+.about{
+    margin-top: 75px;
+}
+.aboutcontent{
+    margin-top: 20px;
+    height: 250px;
+}
+.aboutpic{
+    /* height: 700px; */
+    margin-left: 200px;
+}
+.aboutpic img{
+    height: 700px;
+
+}
+.aboutcontent h1{
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+}
+.aboutcontent p{
+    text-align: center;
+    margin: 25px 265px 25px 265px;
+}
+
+.whyus{
+    padding: 75px 0 85px;
+    background-color: #3b444b;
+}
+.whyus h1{
+    padding-bottom: 25px;
+}
+.qas a{
+    font-size: 25px;
+}
+.homeCon{
+    background: #232b2b;
+}
+.homeconf{
+    display: flex;
+    margin-left: 25px;
+}
+.homec{
+    display: inline-block;
+}
+.homeconf img{
+    height: 75px;
+}
+.homec h3{
+    color: white;
+}
+.homec p{
+    color: rgb(136, 131, 131);
+}
+.service{
+    margin: 50px 0 200px 0;
+}
+  .card{
+    background-color: #414a4c !important;
+  }
+.card-title{
+    color: #fff !important;
+    text-align: center;
+}
+.card-text{
+    color: #c7bebd;
+}
+.col a{
+    text-decoration: none;
+}
+.card:hover{
+    box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
+    -webkit-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
+    -moz-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
+}
+
+.whchos{
+    width: 350px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 0px 6px rgba(248, 248, 248, 0.75);
+-webkit-box-shadow: 5px 5px 0px 6px rgba(255, 253, 253, 0.75);
+-moz-box-shadow: 5px 5px 0px 6px rgba(255, 255, 255, 0.75);
+border-radius: 10px;
+text-align: center;
+}
+.whchos h5{
+    color: #fff;
+}
+.whchos img{
+    height: 150px;
+}
+.whchos p{
+    color: #99a1a1;
+    padding-bottom: 15px;
+}
+.workp{
+    margin-top: 75px;
+}
+.wrkbox{
+    height: 150px;
+    width: 500px;
+    background: #232b2b;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.wrkbox2{
+    height: 150px;
+    width: 500px;
+    background: #232b2b;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-top: 35px;
+}
+.contact{
+    margin-top: 150px;
+}
+.contact img{
+    height: 400px;
+    margin-left: 275px;
+}
+.contact h4{
+    color: white;
+}
+.zedxcontact{
+    background: #414a4c;
+    height: 150px;
+}
+.zedxcontact h1,p{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 120px;
+
+}
+.foot{
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
