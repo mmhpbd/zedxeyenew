@@ -32,7 +32,7 @@ h3{
 }
 .aboutpic{
     /* height: 700px; */
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .aboutpic img{
     height: 700px;
@@ -44,7 +44,6 @@ h3{
     margin-top: 180px;
 }
 .aboutcontent p{
-    text-align: center;
     margin: 25px 265px 25px 265px;
 }
 
@@ -124,7 +123,7 @@ text-align: center;
     margin-top: 75px;
 }
 .wrkbox{
-    height: 150px;
+    height: 200px;
     width: 500px;
     background: #232b2b;
     color: white;
@@ -134,8 +133,14 @@ text-align: center;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+.wrkbox p{
+    margin: 10px 25px 10px 25px;
+}
+.wrkbox2 p{
+    margin: 10px 25px 10px 25px;
+}
 .wrkbox2{
-    height: 150px;
+    height: 200px;
     width: 500px;
     background: #232b2b;
     color: white;
@@ -186,10 +191,11 @@ text-align: center;
     margin-top: 100px;
 }
 .whyusn{
-    background-image: url(../image/technology-dark-blue-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(../image/bgforabout.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
     background-position: center;
+    padding: 15px 0 15px 0 !important;
 
 }
 .whyusn h1{
@@ -243,6 +249,13 @@ text-align: center;
 .assimg img{
     height: 700px;
     width: 1400px;
+}
+.servicefeature{
+    background-image: url(../image/servicebg.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: center;
+    padding: 15px 0 15px 0 !important;
 }
 
 .servicefea{
