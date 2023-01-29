@@ -20,7 +20,7 @@ h3{
 }
 .zedxhomeh1{
     text-align: center;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 .about{
@@ -33,10 +33,10 @@ h3{
 .aboutpic{
     /* height: 700px; */
     margin-left: 150px;
-    margin-top: -125px;
+    margin-top: 15px;
 }
 .aboutpic img{
-    height: 700px;
+    height: 500px;
 
 }
 .aboutcontent h1{
@@ -194,16 +194,16 @@ text-align: center;
 }
 .aboutmain img{
     margin-left: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .vision{
     margin-top: -250px;
 }
 .whyusn{
-    background-image: url(../image/bgforabout.jpg);
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
+    background-image: url(../image/whybg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     padding: 15px 0 15px 0 !important;
 
@@ -215,7 +215,7 @@ text-align: center;
 }
 .skilled h3{
     text-align: center;
-    color: #aa2e25;
+    color: #ffffff;
     margin-top: 50px;
     font-size: 22px;
     background: #242627;
@@ -330,8 +330,7 @@ text-align: center;
     justify-content: center;
 }
 .conimg img{
-    width: 1200px;
-    margin-left: 50px;
+    
 }
 .conimg h1{
     font-size: 75px;
