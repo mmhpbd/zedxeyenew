@@ -18,6 +18,24 @@ h3{
     font-size: 20px;
     margin-left: 10px;
 }
+.zedxnav a:hover{
+    color: #00bbff;
+}
+.oder{
+    background: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+.oder:hover{
+    box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36);
+-webkit-box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36);
+-moz-box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36); 
+}
+.oder a {
+    color: #000 !important;
+}
+.homepage{
+    margin-top: 75px;
+}
 .zedxhomeh1{
     text-align: center;
     margin-top: 40%;
@@ -324,7 +342,7 @@ text-align: center;
     text-align: center;
     color: #fff;
     font-size: 55px;
-    padding-top: 25px;
+    padding-top: 75px;
 }
 .conimg{
     justify-content: center;
