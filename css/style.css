@@ -21,6 +21,7 @@ h3{
 .zedxnav a:hover{
     color: #00bbff;
 }
+
 .oder{
     background-color: #00bbff;
     border-radius: 20px;
@@ -85,6 +86,7 @@ h3{
 }
 .aboutpic img{
     height: 500px;
+    margin-left: 115px;
 
 }
 .aboutcontent h1{
@@ -117,6 +119,7 @@ h3{
 }
 .homec{
     display: inline-block;
+    margin-left: 15px;
 }
 .homeconf img{
     height: 75px;
@@ -144,17 +147,18 @@ h3{
     text-decoration: none;
 }
 .card:hover{
-    box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
-    -webkit-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
-    -moz-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
+    box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
+-webkit-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
+-moz-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
 }
 
 .whchos{
     width: 350px;
     margin-left: 100px;
-    box-shadow: 5px 5px 0px 6px rgba(248, 248, 248, 0.75);
--webkit-box-shadow: 5px 5px 0px 6px rgba(255, 253, 253, 0.75);
--moz-box-shadow: 5px 5px 0px 6px rgba(255, 255, 255, 0.75);
+    box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
+-webkit-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
+-moz-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
+    
 border-radius: 10px;
 text-align: center;
 }
@@ -175,6 +179,7 @@ text-align: center;
     height: 200px;
     width: 500px;
     background: #232b2b;
+    border: 1px solid #00bbff;
     color: white;
     text-align: center;
     margin-left: 200px;
@@ -192,6 +197,7 @@ text-align: center;
     height: 200px;
     width: 500px;
     background: #232b2b;
+    border: 1px solid #00bbff;
     color: white;
     text-align: center;
     margin-left: 700px;
@@ -212,6 +218,7 @@ text-align: center;
 }
 .zedxcontact{
     background: #414a4c;
+    border: 1px solid #00bbff;
     height: 150px;
     border-top-left-radius: 50px;
 }
@@ -268,6 +275,8 @@ text-align: center;
     font-size: 22px;
     background: #242627;
     font-weight: bold;
+    border: 1px solid #00bbff;
+    padding: 5px;
 }
 .skilled p{
     text-align: center;
@@ -282,6 +291,7 @@ text-align: center;
 /* vulnerability assessment page */
 .vulhome{
     margin: 20px 0px 50px 0;
+    
 }
 .vulhome h1{
     font-size: 50px;
@@ -289,12 +299,13 @@ text-align: center;
 .ass{
     height: 135px;
     width: 840px;
+    border: 2px solid #00bbff;
     background-color: #3b444b;
     text-align: center;
     border-top-left-radius: 70px;
 }
 .vulcon{
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
 }
 .vulli{
     color: #fff;
@@ -309,7 +320,7 @@ text-align: center;
 .assimg img{
     height: 700px;
     width: 1400px;
-    margin-top: 35px;
+    margin-top: 90px;
 }
 .servicefeature{
     background-image: url(../image/servicebg.jpg);
@@ -333,6 +344,31 @@ text-align: center;
 
 
 /* benefits part start */
+.srvget{
+    background-color: #232b2b;
+    margin-top: 25px;
+    padding: 15px;
+}
+.gets{
+    height: 50px;
+    width: 195px;
+    border: 3px solid #00bbff;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+.gets:hover{
+    background-color: #00bbff;
+}
+.gets a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 0.3s all;
+}
+.gets a:hover{
+    color: #000;
+}
 .backg{
     background-color: #3b444b;
     padding: 20px 0 50px 0;
@@ -426,27 +462,33 @@ text-align: center;
 }
 
 .btnc{
-    height: 85px;
+    height: 57px;
     width: 400px;
-    background-color: #060707;
+    border: 2px solid #00bbff;
     text-align: center;
     border-radius: 20px;
     margin-left: 120px;
+    transition: .5s all;
     
 }
 .btnc a{
     text-decoration: none;
     color: #fff;
-    font-size: 50px;
+    font-size: 32px;
+    transition: 0.3s all;
+    padding-top: 25px !important;
     
 
 }
 .btnc:hover{
-    background: #000;
-    box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
-    -webkit-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
-    -moz-box-shadow: 5px 7px 18px 0px rgba(242,242,242,0.75);
+   background-color: #00bbff;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 
+}
+.btnc a:hover{
+    color: #000;
 }
 .bgov{
     color: #fff;
@@ -470,18 +512,21 @@ text-align: center;
     text-align: center;
     margin: 50px 40%;
     border-radius: 20px;
-    border: #fff 1px solid;
+    border: #00bbff 1px solid;
+    transition: 0.5s all;
     
 }
 .btncon a{
     text-decoration: none;
     font-size: 25px;
-    color: #aa2e25;
+    color: #ffffff;
+    transition: 0.3s all;
 
 }
 .btncon:hover{
-    border: #aa2e25 1px solid;
-    transition: 0.3s;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
 .btncon a:hover{
     color: #fff;
