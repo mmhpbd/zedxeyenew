@@ -22,23 +22,53 @@ h3{
     color: #00bbff;
 }
 .oder{
-    background: rgb(243, 243, 243);
+    background-color: #00bbff;
     border-radius: 20px;
+    margin-left: 10px;
+   transition: .5s all;
 }
 .oder:hover{
-    box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36);
--webkit-box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36);
--moz-box-shadow: -1px -1px 27px 9px rgba(153,102,102,0.36); 
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+-webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+-moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
+
 .oder a {
-    color: #000 !important;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.3s all;
 }
+.oder a:hover{
+    color: #fff !important;
+ }
 .homepage{
-    margin-top: 75px;
+    margin-top: 30px;
 }
 .zedxhomeh1{
     text-align: center;
     margin-top: 40%;
+}
+.btnc1{
+    height: 41px;
+    width: 277px;
+    border: 1px solid #00bbff;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 0px;
+    font-size: 22px;
+    margin-top: 50px;
+    transition: .5s all;
+    
+}
+.btnc1:hover{
+    background-color: #00bbff;
+}
+.btnc1 a {
+    text-decoration: none;
+    color: white;
+    transition: .3s all;
+}
+.btnc1 a:hover{
+    color: #000;
 }
 
 .about{
@@ -170,7 +200,7 @@ text-align: center;
     border-bottom-left-radius: 100px;
 }
 .contact{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .contact img{
     height: 500px;
@@ -329,6 +359,45 @@ text-align: center;
     text-align: center;
     margin: 50px 0 25px 0;
 }
+
+/* lastpart start */
+.lastpart{
+    background-color: #7d899141;
+    margin-top: 75px;
+    padding-bottom: 15px;
+}
+.newbtn{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid #00bbff;
+    border-radius: 20px;
+    transition: 0.5s all;
+
+}
+.newbtn:hover{
+    background-color: #00bbff;
+}
+.newbtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.newbtn a:hover{
+    color: #000;
+    transition: 0.3s all;
+}
+.newbtn1{
+    text-align: center;
+    padding-top: 25px;
+}
+.newbtn1 p{
+    color: #ffffff;
+    font-size: 18px !important;
+}
+
+
 
 /* contact part start */
 .conbg{
