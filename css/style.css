@@ -14,29 +14,62 @@ h3{
 .zedxlogo{
     height: 50px;
 }
+.zedxnav, .zedxnav1{
+    margin:15px 0 15px;
+}
+.dropdown-item{
+    margin: 25px 0px 15px ;
+    font-size: 20px !important;
+}
+.dropdown-menu li{
+    padding: 0px 20px 0;
+}
+.dropdown-menu li a{
+    margin-left: -1px;
+    font-size: 20px !important;
+}
 .zedxnav a{
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
+    border: 1px solid #066cc0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+}
+.zedxnav1 a{
+    font-size: 20px;
+    border: 1px solid #066cc0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
 .zedxnav a:hover{
-    color: #00bbff;
+    color: #066cc0;
 }
 
+
 .oder{
-    background-color: #00bbff;
+    background-color: #066cc0ee;
+    height: 50px;
+    width: 200px;
     border-radius: 20px;
-    margin-left: 10px;
-   transition: .5s all;
+    margin-left: 30px;
+    transition: .5s all;
+    
 }
 .oder:hover{
-    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
--webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
--moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    background: #034f85;
+    box-shadow: 0px 0px 8px 6px rgba(1, 43, 73, 0.75);
+-webkit-box-shadow: 0px 0px 8px 6px rgba(5, 70, 117, 0.75);
+-moz-box-shadow: 0px 0px 8px 6px rgba(4, 60, 100, 0.75);
 }
 
 .oder a {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
     transition: 0.3s all;
+    text-align: center;
 }
 .oder a:hover{
     color: #fff !important;
@@ -51,7 +84,8 @@ h3{
 .btnc1{
     height: 41px;
     width: 277px;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
+    background-color: #066cc0;
     text-align: center;
     border-radius: 20px;
     margin-left: 0px;
@@ -61,15 +95,18 @@ h3{
     
 }
 .btnc1:hover{
-    background-color: #00bbff;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
 .btnc1 a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
     transition: .3s all;
 }
 .btnc1 a:hover{
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .about{
@@ -179,7 +216,7 @@ text-align: center;
     height: 200px;
     width: 500px;
     background: #232b2b;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
     color: white;
     text-align: center;
     margin-left: 200px;
@@ -197,7 +234,7 @@ text-align: center;
     height: 200px;
     width: 500px;
     background: #232b2b;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
     color: white;
     text-align: center;
     margin-left: 700px;
@@ -218,7 +255,7 @@ text-align: center;
 }
 .zedxcontact{
     background: #414a4c;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
     height: 150px;
     border-top-left-radius: 50px;
 }
@@ -244,17 +281,25 @@ text-align: center;
 
 
 /* about us page edit */
+.aboutmain{
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
 .aboutmain h1{
     margin-top: 100px;
 }
 .aboutmain img{
     margin-left: 50px;
-    /* margin-top: 50px; */
+    margin-top: 108px;
+    height: 850px;
+    width: 550px;
 }
 
-.vision{
-    margin-top: -250px;
+.vision, .mission, .values{
+    margin-top: -25px;
+    
 }
+
 .whyusn{
     background-image: url(../image/whybg1.jpg);
     background-repeat: no-repeat;
@@ -275,7 +320,7 @@ text-align: center;
     font-size: 22px;
     background: #242627;
     font-weight: bold;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
     padding: 5px;
 }
 .skilled p{
@@ -299,8 +344,8 @@ text-align: center;
 .ass{
     height: 135px;
     width: 840px;
-    border: 2px solid #00bbff;
-    background-color: #3b444b;
+    border: 2px solid #066cc0;
+    background-color: #0f1b23;
     text-align: center;
     border-top-left-radius: 70px;
 }
@@ -318,22 +363,25 @@ text-align: center;
 }
 
 .assimg img{
-    height: 700px;
-    width: 1400px;
-    margin-top: 90px;
+    height: 770px;
+    width: 100%;
 }
 .servicefeature{
-    background-image: url(../image/servicebg.jpg);
+    background-image: url(../image/serviceImage/servicebg.jpg);
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     background-position: center;
     padding: 15px 0 15px 0 !important;
+}
+.serviceoverly{
+   background-color: #000 !important;
 }
 
 .servicefea{
     height: 300px;
     width: 500px;
     margin-left: 120px;
+    background-color: rgba(1, 9, 15, 0.623);
 }
 .servicefeature h2{
     font-size: 46px !important;
@@ -352,13 +400,15 @@ text-align: center;
 .gets{
     height: 50px;
     width: 195px;
-    border: 3px solid #00bbff;
+    border: 3px solid #066cc0;
+    background-color: #066cc0;
     text-align: center;
     border-radius: 10px;
     transition: 0.5s all;
 }
 .gets:hover{
-    background-color: #00bbff;
+    background-color: #066cc0;
+    
 }
 .gets a{
     text-decoration: none;
@@ -376,7 +426,7 @@ text-align: center;
     border-bottom-right-radius: 100px;
 }
 .backimg{
-    background-image: url(../image/benefitsbackground.jpg);
+    background-image: url(../image/serviceImage/servicebenef.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -404,16 +454,19 @@ text-align: center;
 }
 .newbtn{
     height: 50px;
-    width: 150px;
+    width: 190px;
     text-align: center;
     margin-top: 15px;
-    border: 1px solid #00bbff;
+    border: 1px solid #066cc0;
+    background-color: #066cc0;
     border-radius: 20px;
     transition: 0.5s all;
 
 }
 .newbtn:hover{
-    background-color: #00bbff;
+    box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
 .newbtn a{
     text-decoration: none;
@@ -437,7 +490,7 @@ text-align: center;
 
 /* contact part start */
 .conbg{
-    background-image: url(../image/contactBg.jpg);
+    /* background-image: url(../image/contactBg.jpg); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -453,7 +506,8 @@ text-align: center;
     justify-content: center;
 }
 .conimg img{
-    
+    height: 700px;
+    width: 1300px;
 }
 .conimg h1{
     font-size: 75px;
@@ -464,7 +518,7 @@ text-align: center;
 .btnc{
     height: 57px;
     width: 400px;
-    border: 2px solid #00bbff;
+    border: 2px solid #066cc0;
     text-align: center;
     border-radius: 20px;
     margin-left: 120px;
@@ -481,7 +535,7 @@ text-align: center;
 
 }
 .btnc:hover{
-   background-color: #00bbff;
+   background-color: #066cc0;
     box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
     -webkit-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
     -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
@@ -512,7 +566,7 @@ text-align: center;
     text-align: center;
     margin: 50px 40%;
     border-radius: 20px;
-    border: #00bbff 1px solid;
+    border: #066cc0 1px solid;
     transition: 0.5s all;
     
 }
