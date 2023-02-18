@@ -119,40 +119,35 @@
                         <div class="bgov">
                             <h5>Tell Us</h5>
                             <h4>What do you want to know</h4>
-                            <form>
-                                <div class="row">
-                                  <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name">
-                                  </div>
-                                  <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name">
-                                  </div>
-                                </div>
-                                <br> <br>
-                                <div class="row">
-                                  <div class="col">
-                                    <input type="email" class="form-control" placeholder="Your Email">
-                                  </div>
-                                  <div class="col">
-                                    <input type="number" class="form-control" placeholder="+880 188 681 1113">
-                                  </div>
-                                </div>
-                                <br> <br>
-                                <div class="row">
-                                  <div class="col">
-                                    <input type="text"  class="form-control" placeholder="Your Subject">
-                                  </div>
-                                </div>
-                                <br> <br>
-                                <div class="row">
-                                  <div class="col">
-                                    <textarea class="form-control" placeholder="Write your Description"></textarea>
-                                  </div>
-                                </div>
-                              </form>
-                              <div class="btncon">
-                                <a href="#">SUBMIT</a>
+                            <form action="./php/form.php" method="post">
+                              <div class="form-group">
+                                  <label for="name">Your Name</label>
+                                  <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp"
+                                      placeholder="Enter Your Name">
                               </div>
+                              <div class="form-group">
+                                  <label for="email">Your Email Address</label>
+                                  <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email">
+                              </div>
+                              <div class="form-group">
+                                <label for="dropdown">Select Your Subject:</label>
+                                <select class="form-control" name="dropdown" id="dropdown">
+                                  <option>Select Your Subject</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="number">Write your Message</label>
+                                  <input type="text-area" class="form-control" name="number" id="number" placeholder="Write Your Message">
+                              </div>
+                              <br><br>
+                              <button type="submit" class="btn btn-primary">submit
+                              </button>
+                          </form>
+                              
                         </div>
                     </div>
                     <div class="col-lg-4">
