@@ -26,10 +26,10 @@ h3{
 }
 .dropdown-menu li a{
     margin-left: -1px;
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 .zedxnav a{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 30px;
     border: 1px solid #066cc0;
     border-radius: 15px;
@@ -38,7 +38,7 @@ h3{
     -moz-box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
 }
 .zedxnav1 a{
-    font-size: 20px;
+    font-size: 15px;
     border: 1px solid #066cc0;
     border-radius: 20px;
     box-shadow: 0px 0px 8px 6px rgba(1,137,231,0.75);
@@ -52,8 +52,8 @@ h3{
 
 .oder{
     background-color: #066cc0ee;
-    height: 50px;
-    width: 200px;
+    height: 42px;
+    width: 150px;
     border-radius: 20px;
     margin-left: 30px;
     transition: .5s all;
