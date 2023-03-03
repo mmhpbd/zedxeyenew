@@ -1,0 +1,26 @@
+@media (min-width: 1400px) {
+    #video{
+        width: 108%;
+    }
+    .zedxhomeh1{
+        margin-top: 19%;
+    }
+    .aboutpic img{
+        margin-left: 80px;
+    }
+    .aboutcontent{
+        margin-left: 30px;
+    }
+    .aboutcontent h1{
+        margin-top: 120px;
+        width: 460px;
+        margin-left: 237px;
+    }
+    .aboutcontent p{
+        margin: 26px 213px 25px 265px;
+    }
+    .whchos{
+        margin-left: 33px;
+    }
+    
+}
