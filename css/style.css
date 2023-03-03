@@ -273,6 +273,12 @@ text-align: center;
     height: 150px;
     border-top-left-radius: 50px;
 }
+.zedxcon a{
+    text-decoration: none;
+}
+.zedxcon a p:hover{
+    color: #066cc0;
+}
 .zedxcontact h1{
     margin-left: 25px;
     margin-top: 10px;
@@ -533,6 +539,40 @@ text-align: center;
     color: #fff;
     font-size: 55px;
     padding-top: 75px;
+}
+.contbg a{
+    text-decoration: none;
+}
+.socialincon{
+
+}
+.socialincon a{
+    text-decoration: none;
+}
+.socialincon a i{
+    font-size: 32px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.fa-linkedin{
+    color: #0072B1;
+}
+.fa-whatsapp{
+    color: #4fce5d;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.fa-twitter{
+    color: #00acee;
 }
 .conimg{
     justify-content: center;
