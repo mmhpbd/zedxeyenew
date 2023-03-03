@@ -260,9 +260,8 @@ text-align: center;
     margin-top: 100px;
 }
 .contact img{
-    height: 500px;
-    margin-left: 75px;
-    margin-top: -25px;
+    height: 465px;
+    margin-top: 20px;
 }
 .contact h4{
     color: white;
@@ -289,11 +288,45 @@ text-align: center;
     margin-top: 10px;
     margin-right: 120px;
 }
+.topber{
+    color: white;
+}
+
+.topber ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.topber ul li a:hover{
+    color: #066cc0;
+}
+.consod{
+    margin-top: 25%;
+}
+.sign{
+    height: 80px;
+    width: 150px;
+
+}
+.sign a{
+    text-decoration: none;
+}
+.sign i{
+    font-size: 36px;
+    color: #066cc0;
+}
+.sign span{
+    font-size: 22px;
+}
+.sign span:hover{
+    color: #066cc0;
+}
+
 .foot{
     color: white;
 }
 .foot a{
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 
