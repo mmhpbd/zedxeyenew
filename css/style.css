@@ -201,7 +201,7 @@ h3{
 
 .whchos{
     width: 350px;
-    margin-left: 100px;
+    margin-left: 26px;
     box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
 -webkit-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
 -moz-box-shadow: 5px 11px 15px 3px rgba(0,187,255,1);
@@ -229,7 +229,7 @@ text-align: center;
     border: 1px solid #066cc0;
     color: white;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 50px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -250,7 +250,7 @@ text-align: center;
     border: 1px solid #066cc0;
     color: white;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 655px;
     margin-top: 35px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -361,7 +361,7 @@ text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    padding: 15px 0 15px 0 !important;
+    padding: 15px 0 15px 0 ;
 
 }
 .whyusn h1{
@@ -434,7 +434,7 @@ text-align: center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center;
-    padding: 15px 0 15px 0 !important;
+    padding: 15px 0 15px 0 ;
 }
 
 .servicefea p{
@@ -449,7 +449,7 @@ text-align: center;
     background-color: rgba(1, 9, 15, 0.623);
 }
 .servicefeature h2{
-    font-size: 46px !important;
+    font-size: 46px ;
     margin: 50px 0 50px 0;
     text-align: center;
 }
@@ -554,7 +554,7 @@ text-align: center;
 }
 .newbtn1 p{
     color: #ffffff;
-    font-size: 18px !important;
+    font-size: 18px;
 }
 
 

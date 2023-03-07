@@ -29,6 +29,7 @@
 }
 
 @media  (max-width: 1200px) {
+    /* HomePage Responsive for 1200px */
     #video{
         width: 116%;
     }
@@ -50,7 +51,7 @@
         margin: 26px 102px 25px 265px;
     }
     .whchos{
-        margin-left: 33px;
+        margin-left: 0px;
     }
     .wrkbox{
         margin-left: 75px;
@@ -58,8 +59,301 @@
     .wrkbox2{
         margin-left: 570px;
     }
+    /* AboutPage Responsive */
+    .aboutmain img {
+        margin-left: 5px !important;
+    }
+    .servicefea{
+        margin-left: 25px !important;
+    }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
+    .zedxhomeh1 h1{
+        font-size: 36px;
+    }
+    .btnc1{
+        height: 30px;
+        width: 210px;
+        font-size: 15px;
+    }
+    .aboutcontent {
+        margin-left: -80px;
+    }
+    .aboutcontent p {
+        margin: 26px 94px 25px 300px;
+    }
+    h3.card-title {
+        font-size: 23px;
+    }
+    .whchos {
+        width: 289px;
+    }
+    .wrkbox, .wrkbox2{
+        width: 420px;
+    }
+    .wrkbox {
+        margin-left: 45px;
+    }
+    .wrkbox2 {
+        margin-left: 475px;
+    }
+    .consod {
+        margin-top: 63%;
+    }
+    .zedxcontact p{
+        margin-right: 18px !important;
+    }
+
+    /* about page  */
+    .vision, .mission, .values {
+        margin-top: -73px !important;
+    }
+    .aboutmain img{
+        height: 795px !important;
+        width: 465px !important;
+    }
+    /* service page */
+    .vulhome h1 {
+        font-size: 50px !important;
+    }
+    .servicefea {
+        height: 260px !important;
+        width: 415px !important;
+    }
+    .backg h4 {
+        text-align: justify;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .benefititem {
+        padding: 15px 50px 0!important;
+    }
+    .consod {
+        margin-top: 65% !important;
+    }
+    /* contact part  */
+    .conimg h1{
+        margin-left: 27%;
+    }
+    .btnc{
+        margin-left: 35px;
+    }
 
 }
+
+@media (max-width: 768px) { 
+    .zedxhomeh1 h1 {
+        font-size: 22px;
+    }
+    .zedxhomeh1 p{
+        font-size: 14px;
+    }
+    .btnc1{
+        margin-top: 10px;
+    }
+    .homeconf{
+        margin-top: 10px;
+    }
+    .aboutcontent p {
+        margin: 26px 92px 25px 205px;
+    }
+    h3.card-title {
+        font-size: 16px;
+    }
+    .card-body{
+        margin-top: -35px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .whyus{
+        padding-top: 0px;
+    }
+    .whchos{
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    .wrkbox {
+        margin-left: 55px;
+    }
+    .wrkbox2{
+        margin-left: 225px;
+    }
+    .consod {
+        margin-top: 3% !important;
+    }
+ }
+
+@media (max-width: 576px) { 
+    .nav-link{
+       margin-left: 50px;
+       text-align: center;
+    }
+    .oder{
+        margin-left: 208px;
+    }
+    .oderlink{
+        margin-left: 0 !important;
+    }
+    .zedxlogo {
+        height: 40px;
+    }
+    .zedxhomeh1 h1 {
+        font-size: 19px;
+    }
+    .zedxhomeh1 p {
+        font-size: 12px;
+    }
+    .btnc1 {
+        height: 38px;
+        width: 115px;
+        font-size: 11px;
+    }
+    .homeconf img {
+        height: 70px;
+    }
+    .homec h3 {
+        color: white;
+        font-size: 20px;
+    }
+    .aboutpic img {
+        margin-left: 25px !important;
+    }
+    .aboutcontent h1 {
+        margin-top: 30px;
+        width: 460px;
+        margin-left: 124px;
+    }
+    .aboutcontent p {
+        margin: 26px 92px 19px 165px;
+    }
+    h3.card-title {
+        font-size: 35px;
+    }
+    .card-text {
+        font-size: 21px;
+    }
+    .whchos {
+        margin-top: 35px;
+        margin-left: 105px;
+    }
+    .wrkbox, .wrkbox2 {
+        height: 150px;
+    }
+    .wrkbox {
+        margin-left: -18px;
+    }
+    .wrkbox2 {
+        margin-left: 112px;
+    }
+    .wrkbox h1, .wrkbox2 h1{
+        font-size: 22px;
+    }
+    .wrkbox p, .wrkbox2 p{
+        font-size: 12px;
+    }
+    /* About page */
+    .abcon h1{
+        margin-top: 30px !important;
+    }
+    .aboutmain img{
+        margin-top: 20px !important;
+    }
+    .lisk{
+        margin-left: 30% !important;
+    }
+    /* service page */
+    .vulhome h1 {
+        font-size: 34px !important;
+    }
+    .servicefea{
+        height: 218px !important;
+        
+    }
+    .servicefeature h2 {
+        font-size: 35px !important;
+    }
+   /* contact part */
+   .btnc {
+    margin-left: 35px;
+    margin-top: 25px;
+    }
+    .conimg h1 {
+        margin-left: 6%;
+        font-size: 55px;
+    }
+   
+ }
+@media (max-width: 412px) { 
+    .btnc1{
+        margin-left: 80px;
+        width: 220px;
+        font-size: 18px;
+    }
+    .aboutcontent h1{
+        margin-left: 69px;
+    }
+    .aboutcontent p {
+        margin: 17px 22px 19px 124px;
+    }
+    .whchos {
+        margin-top: 26px;
+        margin-left: 50px;
+    }
+    .service {
+        margin: 50px 0 75px 0;
+    }
+
+
+
+    .wrkbox, .wrkbox2{
+        margin-left: 2px;
+        width: 365px;
+    }
+    /* service part  */
+    .vulhome h1 {
+        font-size: 23px !important;
+    }
+    .vulcon h5{
+        font-size: 15px;
+    }
+    .servicefea{
+        width: 360px !important;
+    }
+    .servicefea h2{
+        font-size: 33px;
+    }
+    .servicefea p{
+        font-size: 14px;
+    }
+    .backg{
+        padding-bottom: 0px !important;
+    }
+    .backg h4{
+        font-size: 13px;
+        padding: 25px 10px;
+    }
+    .overlaycon {
+        padding-top: 229px !important;
+    }
+    .qa{
+        padding-top: 100px;
+    }
+    .benefititem p{
+        font-size: 14px;
+    }
+    .conimg h1 {
+        margin-left: 0%;
+        font-size: 48px;
+        width: 400px;
+    }
+    .btnc{
+        width: 325px;
+    }
+    .btnc a{
+        font-size: 28px;
+    }
+ }
+
+
