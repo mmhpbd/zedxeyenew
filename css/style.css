@@ -82,7 +82,7 @@ h3{
     margin-top: 40%;
 }
 #video{
-    width:145%;
+    width: auto;
 }
 .btnc1{
     height: 41px;
@@ -691,3 +691,9 @@ text-align: center;
     color: #fff;
     
 }
+
+.zedxcontact p{
+    text-align: justify;
+}
+
+
